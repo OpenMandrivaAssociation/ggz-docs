@@ -20,7 +20,8 @@ BuildRequires:	tetex-texi2html
 BuildRequires:	docbook-utils-pdf
 BuildRequires:	transfig
 BuildRequires:	docbook-dtd31-sgml
-Prereq:		/sbin/install-info
+Requires(post):		info-install
+Requires(preun):		info-install
 
 %description
 Documents for the GGZ Gaming Zone.
