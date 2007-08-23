@@ -1,5 +1,5 @@
 %define version 0.0.14
-%define release %mkrel 1
+%define release %mkrel 2
 
 Name:		ggz-docs
 Summary:	GGZ Gaming Zone Documents
