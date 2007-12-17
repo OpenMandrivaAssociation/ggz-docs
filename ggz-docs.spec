@@ -10,7 +10,6 @@ Group:		Games/Other
 Source0:	http://ftp.ggzgamingzone.org/pub/ggz/%{version}/%{name}-%{version}.tar.bz2
 Patch1:		%{name}-0.0.9-infoentry.patch
 URL:		http://ggzgamingzone.org/
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 BuildRequires:	docbook-utils
 BuildRequires:	openjade
