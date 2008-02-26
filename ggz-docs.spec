@@ -1,5 +1,5 @@
-%define version 0.0.14
-%define release %mkrel 2
+%define version 0.0.14.1
+%define release %mkrel 1
 
 Name:		ggz-docs
 Summary:	GGZ Gaming Zone Documents
@@ -20,8 +20,8 @@ BuildRequires:	tetex-texi2html
 BuildRequires:	docbook-utils-pdf
 BuildRequires:	transfig
 BuildRequires:	docbook-dtd31-sgml
-Requires(post):		info-install
-Requires(preun):		info-install
+Requires(post):	info-install
+Requires(preun): info-install
 
 %description
 Documents for the GGZ Gaming Zone.
