@@ -12,6 +12,7 @@ BuildRequires:	openjade
 BuildRequires:	lynx
 BuildRequires:	texinfo
 BuildRequires:	texi2html
+BuildRequires:	texlive
 BuildRequires:	docbook-utils-pdf
 BuildRequires:	transfig
 BuildRequires:	docbook-dtd31-sgml
@@ -24,6 +25,7 @@ Documentation for the GGZ Gaming Zone.
 %prep
 %setup -q
 %patch1 -p1 -b .direntry
+find . -name texinfo.tex -exec rm {} \;
 
 %build
 # (Abel) no problem for noarch package to not use macros
