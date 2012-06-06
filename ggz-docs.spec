@@ -7,6 +7,7 @@ Group:		Games/Other
 URL:		http://ggzgamingzone.org/
 Source0:	http://ftp.ggzgamingzone.org/pub/ggz/%{version}/%{name}-%{version}.tar.bz2
 Patch1:		ggz-docs-0.0.14-infoentry.patch
+Patch2:		ggz-docs-0.0.14-destdir.patch
 BuildRequires:	docbook-utils
 BuildRequires:	openjade
 BuildRequires:	lynx
@@ -25,12 +26,14 @@ Documentation for the GGZ Gaming Zone.
 %prep
 %setup -q
 %patch1 -p1 -b .direntry
+%patch2 -p1
+autoreconf
 find . -name texinfo.tex -exec rm {} \;
 
 %build
 # (Abel) no problem for noarch package to not use macros
 # in fact it fails to build with macros
-./configure \
+%configure \
 	--enable-guides \
 	--enable-spec \
 	--prefix=%{_prefix} \
