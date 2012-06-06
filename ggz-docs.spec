@@ -11,7 +11,7 @@ BuildRequires:	docbook-utils
 BuildRequires:	openjade
 BuildRequires:	lynx
 BuildRequires:	texinfo
-BuildRequires:	tetex-texi2html
+BuildRequires:	texi2html
 BuildRequires:	docbook-utils-pdf
 BuildRequires:	transfig
 BuildRequires:	docbook-dtd31-sgml
