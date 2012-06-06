@@ -15,6 +15,7 @@ BuildRequires:	texi2html
 BuildRequires:	docbook-utils-pdf
 BuildRequires:	transfig
 BuildRequires:	docbook-dtd31-sgml
+BuildRequires:	ghostscript
 BuildArch:	noarch
 
 %description
