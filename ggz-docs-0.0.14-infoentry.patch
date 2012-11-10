@@ -1,0 +1,31 @@
+--- ggz-docs-0.0.14.1.orig/debian/patches/sections.diff
++++ ggz-docs-0.0.14.1/debian/patches/sections.diff
+@@ -0,0 +1,28 @@
++bug #453033
++
++Index: games/game-development/ggz-game-development-guide.texi
++===================================================================
++--- games/game-development/ggz-game-development-guide.texi	(.../tags/ggz-0-0-14/docs)	(revision 9387)
+++++ games/game-development/ggz-game-development-guide.texi	(.../branches/ggz-0-0-14/docs)	(revision 9387)
++@@ -19,7 +19,7 @@
++ 
++ @dircategory Games
++ @direntry
++-* ggz-gamedev: (ggz-gamedev). The GGZ Gaming Zone Game Development Guide
+++* ggz-gamedev: (ggz-game-development-guide). The GGZ Gaming Zone Game Development Guide
++ @end direntry
++ 
++ @c End of header ===============================================
++Index: server/hosting/ggz-hosting-guide.texi
++===================================================================
++--- server/hosting/ggz-hosting-guide.texi	(.../tags/ggz-0-0-14/docs)	(revision 9387)
+++++ server/hosting/ggz-hosting-guide.texi	(.../branches/ggz-0-0-14/docs)	(revision 9387)
++@@ -19,7 +19,7 @@
++ 
++ @dircategory Games
++ @direntry
++-* ggz-hosting: (ggz-hosting). The GGZ Gaming Zone Hosting Guide
+++* ggz-hosting: (ggz-hosting-guide). The GGZ Gaming Zone Hosting Guide
++ @end direntry
++ 
++ @c End of header ===============================================

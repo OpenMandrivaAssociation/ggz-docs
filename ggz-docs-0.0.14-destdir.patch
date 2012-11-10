@@ -1,0 +1,20 @@
+--- ggz-docs-0.0.14.1/games/game-development/Makefile.am.orig	2012-06-06 11:41:04.334962503 -0300
++++ ggz-docs-0.0.14.1/games/game-development/Makefile.am	2012-06-06 11:41:39.645963222 -0300
+@@ -21,5 +21,5 @@ clean-local:
+ 	-rm -rf ggz-game-development-guide
+ 
+ install-data-local:
+-	-cp ggz-*.html $(guidedir)
++	-cp ggz-*.html $(DESTDIR)$(guidedir)
+ 
+--- ggz-docs-0.0.14.1/games/game-development/Makefile.in.orig	2012-06-06 11:46:31.602968008 -0300
++++ ggz-docs-0.0.14.1/games/game-development/Makefile.in	2012-06-06 11:46:38.979968235 -0300
+@@ -734,7 +734,7 @@ clean-local:
+ 	-rm -rf ggz-game-development-guide
+ 
+ install-data-local:
+-	-cp ggz-*.html $(guidedir)
++	-cp ggz-*.html $(DESTDIR)$(guidedir)
+ # Tell versions [3.59,3.63) of GNU make to not export all variables.
+ # Otherwise a system limit (for SysV at least) may be exceeded.
+ .NOEXPORT:
