@@ -4,7 +4,7 @@ Version:	0.0.14.1
 Release:	6
 License:	GPL
 Group:		Games/Other
-URL:		http://ggzgamingzone.org/
+URL:		https://ggzgamingzone.org/
 Source0:	http://ftp.ggzgamingzone.org/pub/ggz/%{version}/%{name}-%{version}.tar.bz2
 Patch1:		ggz-docs-0.0.14-infoentry.patch
 Patch2:		ggz-docs-0.0.14-destdir.patch
